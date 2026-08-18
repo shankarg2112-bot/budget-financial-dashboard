@@ -2,9 +2,9 @@
 ### Happiest Minds Technologies — Budget Performance & Financial Health Analysis (2021–2023)
 
 ## What this project does
-Answers one question: **Where is the company overspending, and can it actually afford it?**
+Answers one question: Where is the company overspending, and can it actually afford it?
 
-Combines an internal department budget dataset with Happiest Minds Technologies' real
+Combines an internal department budget dataset with Happiest Minds Technologies'
 public financial statements to assess operational spend risk against overall financial
 health, benchmarked against 4 industry peers.
 
@@ -22,15 +22,26 @@ health, benchmarked against 4 industry peers.
 Raw data -> Python (pandas): cleaning + EDA -> MySQL: SQL analysis -> Power BI: dashboard
 ```
 
-- **Python**: cleaned 10,010 -> 9,995 rows, removed duplicates/nulls, trimmed financial
+- Python: cleaned 10,010 -> 9,995 rows, removed duplicates/nulls, trimmed financial
   data to 5 companies
-- **MySQL**: department/region/year variance queries, peer comparison joins
-- **Power BI**: 3-page interactive dashboard connected live to MySQL
+- MySQL: department/region/year variance queries, peer comparison joins
+- Power BI: 3-page interactive dashboard connected live to MySQL
 
 ## Dashboard Pages
-1. **Budget Variance** — department/region overspend, heatmap, year trend, KPIs, slicers
-2. **Financial Health & Peer Benchmark** — liquidity, leverage, profitability, cash vs. 4 peers
-3. **Executive Summary** — headline KPIs + written recommendation
+1. Budget Variance — department/region overspend, heatmap, year trend, KPIs, slicers
+2. Financial Health & Peer Benchmark — liquidity, leverage, profitability, cash vs. 4 peers
+3. Executive Summary — headline KPIs + written recommendation
+
+## Dashboard Preview
+
+Page 1 — Budget Variance
+![Budget Variance page](screenshots/page1_budget_variance.png)
+
+Page 2 — Financial Health & Peer Benchmark
+![Financial Health page](screenshots/page2_financial_health.png)
+
+Page 3 — Executive Summary
+![Executive Summary page](screenshots/page3_executive_summary.png)
 
 ## Key Findings
 - Marketing overspent the most overall (+15.06%); **Marketing × East** was the sharpest
